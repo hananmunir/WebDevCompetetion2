@@ -1,0 +1,75 @@
+.landing-img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+.landing-navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  overflow-y: none;
+}
+.nav-logo {
+  height: 80px;
+  margin-left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.1rem;
+}
+
+.sign-up-btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 0.7rem;
+  border-radius: 0.2rem;
+  border: none !important;
+  background-color: #e50914;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer !important;
+  z-index: 999;
+}
+
+.landing-text {
+  position: absolute;
+
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  margin-top: 10%;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+}
+
+.landing-text-heading {
+  font-size: 3rem;
+  width: 50%;
+  font-weight: 900;
+  margin-bottom: 0.2rem;
+}
+
+.landing-text-subtitles {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-landing-btn {
+  width: 40% !important;
+}

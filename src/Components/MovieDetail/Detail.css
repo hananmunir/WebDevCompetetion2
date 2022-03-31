@@ -1,0 +1,13 @@
+.my-modal {
+  background-color: #181818 !important;
+}
+.header-modal {
+  height: 300px;
+}
+.modal-text * {
+  color: #fff !important;
+}
+
+.description {
+  color: #fff !important;
+}

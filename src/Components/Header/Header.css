@@ -1,0 +1,58 @@
+.header-contents > h1 {
+  color: #fff;
+}
+
+.header {
+  height: 500px;
+  object-fit: contain;
+}
+
+.header-contents {
+  margin-left: 30px;
+  padding-top: 140px;
+}
+
+.header-description {
+  font-size: 0.95rem;
+  font-weight: 400;
+  width: 45rem;
+  height: 80px;
+  line-height: 1.3rem;
+  padding-top: 1rem;
+}
+
+.header-title {
+  font-size: 3rem;
+  padding: 0.3rem;
+}
+
+.header-button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  margin-right: 1rem;
+  padding-top: 0.65rem;
+  background-color: rgba(51, 51, 51, 0.7);
+  padding-bottom: 0.65rem;
+}
+
+.header-button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.2s;
+}
+
+.bottom-fade {
+  height: 10rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.6),
+    #000
+  );
+}

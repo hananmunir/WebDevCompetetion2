@@ -1,0 +1,25 @@
+{
+  "folders": [
+	{
+		"path": "..\\.."
+	},
+	{
+		"path": "..\\..\\..\\MERNProjects\\Memories"
+	},
+	{
+		"path": "..\\..\\..\\MERNProjects\\Social-Media-App\\Backend"
+	},
+	{
+		"path": "..\\..\\..\\MERNProjects\\Social-Media-App\\frontend"
+	},
+	{
+		"path": "..\\..\\..\\React-Projects\\WebComp\\diabetes-project"
+	},
+	{
+		"path": "..\\..\\..\\MERNProjects\\netflix-clone"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "mehPractice"
+  }
+}
