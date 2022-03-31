@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { TextFields } from "@mui/icons-material";
 import React from "react";
 import { TextField } from "@mui/material";
@@ -20,7 +21,10 @@ function Signup({ setIsSignIn }) {
             placeholder='Password'
           />
         </div>
-        <button className='sign-in-btn'>Sign In</button>
+        <button className='sign-in-btn'> <Link to={"/home"} style={{ textDecoration: "none", color: "#fff" }}>
+            {" "}
+            Sign In{" "}
+          </Link></button>
         <div className='help-texts'>
           <div className='checkbox-div'>
             <input type='checkbox' checked name='Remember Me' id='' />
