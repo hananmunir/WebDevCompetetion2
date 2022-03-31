@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import landingImg from "../../images/landing.jpg";
 import SignIn from "../SignIn/SignIn";
@@ -55,7 +56,12 @@ export default function Landing() {
               id='basic-addon2'
               className='m-0'
             >
-              GET STARTED
+              <Link
+                to={"/home"}
+                style={{ textDecoration: "none", color: "#fff" }}
+              >
+                GET STARTED
+              </Link>
             </InputGroup.Text>
           </InputGroup>
         </div>
