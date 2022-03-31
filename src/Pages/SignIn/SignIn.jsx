@@ -14,11 +14,13 @@ function Signup({ setIsSignIn }) {
             type='text'
             className='input-field'
             placeholder='Email or phone Number'
+    required
           />
           <input
             type='password'
             className='input-field'
             placeholder='Password'
+    required
           />
         </div>
         <button className='sign-in-btn'> <Link to={"/home"} style={{ textDecoration: "none", color: "#fff" }}>
