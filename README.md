@@ -1,3 +1,9 @@
+#Notes
+
+The Landing Page, Signup Page, Sign IN Page And home pages are complete, you can go to youtube links of videos by clicking on them. I was trying to add Modal for details when the time got over.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
